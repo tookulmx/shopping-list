@@ -1,0 +1,152 @@
+html {   
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:15px;
+}
+
+body {
+    height: 100vh;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    color: rgb(50,50,50);
+    text-align: center;
+    width: 100%;
+    
+}
+
+h1 {
+    padding: 1rem;
+    padding-bottom: 2rem;
+    color:rgb(17, 17, 17);
+    letter-spacing: 5px;
+    margin:0;
+}
+
+p {
+    font-weight: 700;
+    color: rgb(17, 17, 17);
+    width: auto;
+    text-align: center;
+    margin:0;
+    padding-bottom: .5rem;
+}
+
+ul {
+    text-align: left;
+    list-style: inside;
+    
+}
+
+li {
+    font-weight: bold;
+    color: rgb(50,50,50);
+   }
+
+  .done {
+    text-decoration: line-through rgba(179, 56, 152, 1) 3px;
+    
+  }
+
+
+.main-container {
+    padding-top: 2%;
+    padding-bottom: 10%;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+.main-list { 
+    display: flex;
+
+    
+    /* background-color: greenyellow; */
+    width: 49vw;
+    justify-content: right;
+    padding-right: 1vw;
+
+
+}
+
+.form {
+
+    display: flex;
+    /* background-color: rgb(61, 109, 199); */
+    width: 47vw;
+    flex-direction: right;
+    padding-left: 3vw;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.fas {
+    padding-top: 5rem;
+    font-size: 1.5rem;
+}
+
+input {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+button {
+    height: 2rem;
+    width: 5rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    color: rgb(54, 54, 54);
+    font-weight: 700;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    
+}
+
+#check {
+    height: 2rem;
+    width: auto;
+}
+
+footer {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: .7rem;
+    margin-bottom: 0;
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding-top: 9%;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin:  20px auto;
+    min-height: 1vh;
+    width: 100vw;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+
+  
+.cool-title {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2rem;
+	text-transform: uppercase;
+	color: rgb(107, 107, 107);
+	
+	text-shadow: 	1px 1px #cccccc, 
+					2px 2px #dadada,  
+					3px 3px #dfdfdf,  
+					4px 4px #e6e6e6,  
+					5px 5px #eaeaea, 
+					6px 6px #eeeeee,
+					7px 7px #eeeeee,
+					8px 8px 10px #7e002d;
+}
